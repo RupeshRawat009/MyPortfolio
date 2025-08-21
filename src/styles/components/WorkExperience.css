@@ -1,0 +1,86 @@
+.work-section {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  padding: 4rem 2rem;
+  font-family: 'Roboto Serif', serif;
+}
+
+.work-heading {
+  font-size: 2rem;
+  text-align: left;
+  margin: 0 auto 2rem 5%;
+  max-width: 90%;
+  padding-left: 13.5rem;
+}
+
+.heading-text {
+  display: inline-block;
+  border-left: 4px solid #16A34A;
+  letter-spacing: 1px;
+  padding-left: 1rem;
+}
+@media (max-width: 1024px) {
+  .work-heading {
+    padding-left: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-heading {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-heading {
+    padding-left: 1.5rem;
+  }
+
+  .heading-text {
+    font-size: 1.5rem;
+    padding-left: 0.75rem;
+  }
+}
+
+.work-card {
+  background-color: #2a2a2a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.work-header {
+  margin-bottom: 1rem;
+}
+
+.company {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.via {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #aaa;
+  margin-left: 0.5rem;
+}
+
+.role {
+  font-size: 1.1rem;
+  color: #A8ADB2;
+  margin-top: 0.3rem;
+}
+
+.work-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.work-description strong {
+  color: #61dafb; /* Highlight tech keywords */
+}

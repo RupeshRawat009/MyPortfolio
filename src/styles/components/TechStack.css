@@ -1,0 +1,53 @@
+.tech-section {
+  padding: 2rem;
+  text-align: center;
+  background-color: #1c1c1c;
+}
+
+.tech-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+}
+
+.tech-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tech-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Brand colors */
+.tech-card:nth-child(1) .tech-icon { color: #e34c26; } /* HTML */
+.tech-card:nth-child(2) .tech-icon { color: #264de4; } /* CSS */
+.tech-card:nth-child(3) .tech-icon { color: #f7df1e; } /* JS */
+.tech-card:nth-child(4) .tech-icon { color: #61dafb; } /* React */
+.tech-card:nth-child(5) .tech-icon { color: #68a063; } /* Node.js */
+.tech-card:nth-child(6) .tech-icon { color: #8a8080; }     /* Express */
+.tech-card:nth-child(7) .tech-icon { color: #47A248; } /* MongoDB */
