@@ -19,7 +19,7 @@ export default function Projects() {
           <span className="tag">OpenWeather API</span>
           <span className="tag">Leaflet</span>
         </div>
-        <a href="https://weathering-forecast.vercel.app" target="_blank" className="demo-button">DEMO</a>
+        <a href="https://weathering-forecast-xql4-git-main-rawat-jis-projects.vercel.app?_vercel_share=WU8kBOKRZK62hciTqqo77gYBfJz7cRMP" target="_blank" className="demo-button">DEMO</a>
       </div>
     </section>
   );
