@@ -35,9 +35,9 @@ export default function Projects() {
       {/* Quick App Project */}
       <div className="project-card">
         <img src={quickAppImg} alt="Quick App Project" className="project-image" />
-        <h3 className="project-title">Quick App</h3>
+        <h3 className="project-title">Quick Chat</h3>
         <p className="project-description">
-          Developed a robust and intuitive real-time messaging platform, <strong>Quick App</strong>, leveraging the <strong>MERN stack</strong> and <strong>Socket.IO</strong>. This project showcases architectural prowess in creating a seamless, full-stack application with bidirectional communication, ensuring a dynamic and responsive user experience.
+          Developed a robust and intuitive real-time messaging platform, <strong>Quick Chat</strong>, leveraging the <strong>MERN stack</strong> and <strong>Socket.IO</strong>. This project showcases architectural prowess in creating a seamless, full-stack application with bidirectional communication, ensuring a dynamic and responsive user experience.
         </p>
         <div className="tech-tags">
           <span className="tag">MongoDB</span>
