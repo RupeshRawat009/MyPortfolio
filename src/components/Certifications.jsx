@@ -13,6 +13,11 @@ export default function Certifications() {
           <a href="https://drive.google.com/file/d/13RIMVHXJGh_h5hrkuXfLri6F3TT1CSn3/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="cert-button">View Certificate</a>
         </div>
         <div className="cert-card">
+          <h3>IBM SkillsBuild Project Based Learning Program 2025</h3>
+          <p>Issued by IBM SkillsBuild</p>
+          <a href="https://drive.google.com/file/d/1aWsmFDYvYeyClHvpJSbTWFSl_s-gJCYQ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="cert-button">View Certificate</a>
+        </div>
+        <div className="cert-card">
           <h3>Oracle Cloud Foundation Associate</h3>
           <p>Certified for 2025</p>
           <a href="https://drive.google.com/file/d/181LWiujs-uC6qCUOWGDCqjImrCGkHxTe/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="cert-button">View Certificate</a>

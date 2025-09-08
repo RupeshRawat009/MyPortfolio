@@ -16,9 +16,10 @@ function App() {
        <Banner />
        <TechStack/>
        <WorkExperience />
-       <Projects /> 
-        <Certifications />
-       <Contact />
+      <section id="projects"><Projects /></section>
+      <section id="Certification"></section>  <Certifications />
+      <section id="contact"><Contact /></section>
+
 
     </>
   );
