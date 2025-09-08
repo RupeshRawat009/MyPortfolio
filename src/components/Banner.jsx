@@ -1,5 +1,5 @@
 import '../styles/components/Banner.css';
-import profileImg from '../assets/profile.jpg';
+import profileImg from '../assets/profileImg.jpg';
 import { FaHome, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function Banner() {
